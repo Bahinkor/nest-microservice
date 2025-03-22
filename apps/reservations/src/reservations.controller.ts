@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/consistent-type-imports */
 import { Body, Controller, Delete, Get, Param, Patch, Post } from "@nestjs/common";
 
-import type { CreateReservationDto } from "./dto/create-reservation.dto";
-import type { UpdateReservationDto } from "./dto/update-reservation.dto";
-import type { ReservationsService } from "./reservations.service";
+import { CreateReservationDto } from "./dto/create-reservation.dto";
+import { UpdateReservationDto } from "./dto/update-reservation.dto";
+import { ReservationsService } from "./reservations.service";
 
 @Controller("reservations")
 export class ReservationsController {

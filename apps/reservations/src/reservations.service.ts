@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/consistent-type-imports */
 import { Injectable } from "@nestjs/common";
 
-import type { CreateReservationDto } from "./dto/create-reservation.dto";
-import type { UpdateReservationDto } from "./dto/update-reservation.dto";
-import type { ReservationsRepository } from "./reservations.repository";
+import { CreateReservationDto } from "./dto/create-reservation.dto";
+import { UpdateReservationDto } from "./dto/update-reservation.dto";
+import { ReservationsRepository } from "./reservations.repository";
 
 @Injectable()
 export class ReservationsService {
