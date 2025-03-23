@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/consistent-type-imports */
 import { Body, Controller, Delete, Get, Param, Patch, Post } from "@nestjs/common";
 
 import { CreateReservationDto } from "./dto/create-reservation.dto";

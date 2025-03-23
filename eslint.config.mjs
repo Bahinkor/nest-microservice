@@ -6,5 +6,6 @@ export default init({
   rules: {
     "perfectionist/sort-classes": "off",
     "import/no-cycle": "off",
+    "@typescript-eslint/consistent-type-imports": "off",
   },
 }); // enable eslint configuration
